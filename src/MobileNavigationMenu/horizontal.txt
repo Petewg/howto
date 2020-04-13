@@ -1,4 +1,5 @@
 Horizontal Mobile Navbar
+
 This example demonstrates how a navigation menu on a mobile/smart
 phone could look like.
 
