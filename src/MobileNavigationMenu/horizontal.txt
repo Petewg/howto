@@ -6,5 +6,5 @@ Click on the Trigram For Heaven menu (three bars) in the top right corner,
 to toggle the menu.
 
 Note that this example should'nt be used if you have a lot of links,
-as they will "break" the navbar when there's too many
+as they will 'break' the navbar when there's too many
 (especially on very small screens).
