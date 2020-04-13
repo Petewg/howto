@@ -4,7 +4,7 @@ The project has an educational nature - expansion of knowledge considering the b
 
 ### Code snippets
 
-* [Home page](http://harbour.pl/hbui/howto)
+* [Home page](https://harbour.pl/howto/)
 
 ### Thanks
 
