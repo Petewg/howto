@@ -11,9 +11,9 @@ Learn how to create a top navigation menu for smartphones / tablets with Harbour
 
 Vertical
 
-#### Sample source code
+#### [Source code](https://github.com/rjopek/howto/blob/master/src/MobileNavigationMenu/vertical.prg)
 
-##### Output:
+#### Output:
 
 ![Linux]({{ site.baseurl }}/assets/img/vertical_01.png "With family Linux Ubuntu desktop")
 
