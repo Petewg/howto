@@ -1,4 +1,4 @@
-# How TO Start Programming in Harbour
+# How TO start programming in Harbour
 
 The project has an educational nature - expansion of knowledge considering the building of applications with the usege of programing language Harbour.
 

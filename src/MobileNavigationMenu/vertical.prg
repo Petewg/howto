@@ -1,3 +1,4 @@
+/* Navigation Bar Vertical */
 
 #include "inkey.ch"
 #include "setcurs.ch"
@@ -32,7 +33,6 @@ PROCEDURE Main()
 
    DO WHILE lContinue
 
-      /* reset zmiennych */
       aMenuPos := {}
       nRow := 1
 

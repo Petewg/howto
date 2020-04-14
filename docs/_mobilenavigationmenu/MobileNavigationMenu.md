@@ -9,7 +9,7 @@ Learn how to create a top navigation menu for smartphones / tablets with Harbour
 
 ## Mobile Navigation Bar Vertical:
 
-#### [Source code](https://github.com/rjopek/howto/blob/master/src/MobileNavigationMenu/vertical.prg)
+#### [Source code](https://github.com/rjopek/howto/blob/master/src/mobilenavigationmenu/vertical.prg)
 
 #### Output:
 
@@ -19,7 +19,7 @@ Learn how to create a top navigation menu for smartphones / tablets with Harbour
 
 ## Mobile Navigation Bar Horizontal:
 
-#### [Source code](https://github.com/rjopek/howto/blob/master/src/MobileNavigationMenu/horizontal.prg)
+#### [Source code](https://github.com/rjopek/howto/blob/master/src/mobilenavigationmenu/horizontal.prg)
 
 #### Output:
 
