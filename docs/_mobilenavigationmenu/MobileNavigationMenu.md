@@ -7,9 +7,7 @@ title: Mobile Navigation Menu
 
 Learn how to create a top navigation menu for smartphones / tablets with Harbour.
 
-## Mobile Navigation Bar
-
-Vertical
+## Mobile Navigation Bar Vertical:
 
 #### [Source code](https://github.com/rjopek/howto/blob/master/src/MobileNavigationMenu/vertical.prg)
 
@@ -18,4 +16,15 @@ Vertical
 ![Linux]({{ site.baseurl }}/assets/img/vertical_01.png "With family Linux Ubuntu desktop")
 
 ![Linux]({{ site.baseurl }}/assets/img/vertical_02.png "With family Linux Ubuntu desktop")
+
+## Mobile Navigation Bar Horizontal:
+
+#### [Source code](https://github.com/rjopek/howto/blob/master/src/MobileNavigationMenu/horizontal.prg)
+
+#### Output:
+
+![Linux]({{ site.baseurl }}/assets/img/horizontal_01.png "With family Linux Ubuntu desktop")
+
+![Linux]({{ site.baseurl }}/assets/img/horizontal_02.png "With family Linux Ubuntu desktop")
+
 
