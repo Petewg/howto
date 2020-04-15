@@ -19,7 +19,7 @@ PROCEDURE Main()
    Set( _SET_EVENTMASK, hb_bitOr( INKEY_KEYBOARD, HB_INKEY_GTEVENT, INKEY_ALL ) )
    SetCursor( SC_NONE )
 
-   aMenu := { "Home", "Link 1", "Link 1", "Link 1", "Link 1" }
+   aMenu := { "Home", "Link 1", "Link 2", "Link 3", "Link 4" }
 
    Scroll()
 

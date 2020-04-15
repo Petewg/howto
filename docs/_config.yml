@@ -21,3 +21,7 @@ collections:
    verticalmenu:
       output: true
       permalink: /:collection/
+
+   verticalslidingmenu:
+      output: true
+      permalink: /:collection/
