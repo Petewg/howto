@@ -1,4 +1,4 @@
-/* Navigation Bar Horizontal */
+/* Mobile navigation bar horizontal */
 
 #include "inkey.ch"
 #include "setcurs.ch"

@@ -1,4 +1,4 @@
-/* Navigation Bar Vertical */
+/* Mobile navigation bar vertical */
 
 #include "inkey.ch"
 #include "setcurs.ch"
@@ -136,7 +136,6 @@ PROCEDURE Main()
             NEXT
          ENDIF
 
-         /* */
          FOR i := 1 TO 1
             IF MRow() >= aButtonPos[ i ] - 1 .AND. MRow() <= aButtonPos[ i ] + 1 .AND. MCol() >= nMaxCol - 5 .AND. MCol() <= nMaxCol - 1
                IF lDisplay
