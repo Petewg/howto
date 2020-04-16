@@ -7,13 +7,13 @@ PROCEDURE Main()
 
    LOCAL aMenu
    LOCAL aMenuPos
-   LOCAL nLine
    LOCAL lContinue := .T.
    LOCAL nCol := 0
+   LOCAL nLine
    LOCAL nMaxCol := MaxCol() + 1
    LOCAL nMenuIndex := 0
-   LOCAL nRow
    LOCAL nNextMenuItem := 0
+   LOCAL nRow
 
    LOCAL i
 

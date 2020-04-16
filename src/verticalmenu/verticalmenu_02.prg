@@ -1,4 +1,4 @@
-/* Vertical Menu */
+/* Vertical Menu 02 */
 
 #include "inkey.ch"
 #include "setcurs.ch"
@@ -31,7 +31,7 @@ PROCEDURE Main()
       DispBegin()
       FOR EACH cLine IN aMenu
          hb_DispOutAt( nRow - 1, nCol, Space( nMaxCol ), iif( cLine:__enumIsFirst(), "15/02", iif( cLine:__enumIndex() == nMenuIndex, " 08/08", "07/07" ) ) )
-         hb_DispOutAt( nRow, nCol, PadL( PadR( cLine, nMaxCol ), nMaxCol + 2 ), iif( cLine:__enumIsFirst(), "15/02", iif( cLine:__enumIndex() == nMenuIndex, "15/08", "00/07" ) ) )
+         hb_DispOutAt( nRow, nCol, PadL( PadR( cLine, nMaxCol - 2 ), nMaxCol ), iif( cLine:__enumIsFirst(), "15/02", iif( cLine:__enumIndex() == nMenuIndex, "15/08", "00/07" ) ) )
          hb_DispOutAt( nRow + 1, nCol, Space( nMaxCol ), iif( cLine:__enumIsFirst(), "15/02", iif( cLine:__enumIndex() == nMenuIndex, " 08/08", "07/07" ) ) )
          AAdd( aMenuPos, nRow )
          nRow += 3
