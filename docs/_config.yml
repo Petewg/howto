@@ -14,7 +14,11 @@ highlighter: rouge
 #-
 collections:
 
-   mobilenavigationmenu:
+   mobilehorizontalmenu:
+      output: true
+      permalink: /:collection/
+
+   mobileverticalmenu:
       output: true
       permalink: /:collection/
 

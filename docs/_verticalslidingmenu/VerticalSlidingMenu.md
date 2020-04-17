@@ -7,7 +7,7 @@ title: Vertical Sliding Menu
 
 Learn how to create a vertical sliding menu with Harbour.
 
-## Vertical Sliding Menu
+## Try it Yourself  Harbour >>
 
 #### [Source code](https://github.com/rjopek/howto/blob/master/src/verticalslidingmenu/verticalslidingmenu.prg)
 
