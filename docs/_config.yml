@@ -22,6 +22,10 @@ collections:
       output: true
       permalink: /:collection/
 
+   off-canvasmenu:
+      output: true
+      permalink: /:collection/
+
    verticalmenu:
       output: true
       permalink: /:collection/
