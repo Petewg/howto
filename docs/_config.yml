@@ -30,6 +30,10 @@ collections:
       output: true
       permalink: /:collection/
 
+   tabheaders:
+      output: true
+      permalink: /:collection/
+
    topnavigation:
       output: true
       permalink: /:collection/
