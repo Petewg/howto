@@ -19,6 +19,7 @@ PROCEDURE Main()
    LOCAL nMaxRow := MaxRow()
    LOCAL nMenuIndex := 0
    LOCAL nRow
+   LOCAL nMRow := 1
 
    LOCAL i
 
@@ -99,13 +100,13 @@ PROCEDURE Main()
 
          IF lDisplay
             FOR i := 1 TO Len( aMenu )
-               IF  MCol() >= aMenuPos[ i ] .AND. MCol() <= aMenuPos[ i ] + Len( aMenu[ i ] ) - 1
+               IF MRow() >= nMRow - 1 .AND. MRow() <= nMRow + 1 .AND. MCol() >= aMenuPos[ i ] .AND. MCol() <= aMenuPos[ i ] + Len( aMenu[ i ] ) - 1
                   nMenuIndex := i
                ENDIF
             NEXT
          ELSE
             FOR i := 1 TO 1
-               IF MCol() >= aMenuPos[ i ]  .AND. MCol() <= aMenuPos[ i ] + Len( aMenu[ i ] ) - 1
+               IF MRow() >= nMRow - 1 .AND. MRow() <= nMRow + 1 .AND. MCol() >= aMenuPos[ i ] .AND. MCol() <= aMenuPos[ i ] + Len( aMenu[ i ] ) - 1
                   nMenuIndex := i
                ENDIF
             NEXT
