@@ -23,7 +23,7 @@ PROCEDURE Main()
    SetCursor( SC_NONE )
 
    aMenu := { "Home", "Search", "Contact", "Login" }
-   nCount := Int( nMaxCol / Len( aMenu ) ) + 1
+   nCount := Int( nMaxCol / Len( aMenu ) ) 
 
    Scroll()
 
