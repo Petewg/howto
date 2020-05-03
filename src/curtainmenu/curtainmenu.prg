@@ -106,6 +106,7 @@ PROCEDURE Main()
             FOR i := 1 TO 4
                IF MRow() >= aMenuPos[ i ] - 1 .AND. MRow() <= aMenuPos[ i ] + 1 .AND. MCol() >= 0 .AND. MCol() <= nMaxCol
                   Alert( aMenu[ i ] )
+                  EXIT
                ENDIF
             NEXT
          ENDIF
